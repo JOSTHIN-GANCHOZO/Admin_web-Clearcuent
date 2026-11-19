@@ -1,0 +1,19 @@
+# Angular y dependencias generadas (RF-58 a RF-61; AM-47)
+node_modules/
+dist/
+.angular/
+coverage/
+playwright-report/
+test-results/
+
+# Secretos: solo ejemplos sin valores reales
+.env
+.env.*
+!.env.example
+
+# Archivos locales
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
